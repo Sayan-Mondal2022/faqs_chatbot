@@ -144,8 +144,7 @@ The chatbot is built using **Flask** as the backend, **HTML/CSS/JS** for the use
    ```
 
 2. **Access the Chatbot**
-   Open your browser and go to:
-   ![http://127.0.0.1:5000](http://127.0.0.1:5000)
+   Open your browser and go to: [localhost:5000](http://127.0.0.1:5000)
 
 ---
 
