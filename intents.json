@@ -1,0 +1,588 @@
+{
+  "intents": [
+    {
+      "tag": "flight_booking",
+      "patterns": [
+        "How do I book a flight?",
+        "Flight booking process",
+        "Can I book a round trip?",
+        "Book a flight to Paris",
+        "How can I reserve a flight?",
+        "Steps to book a plane ticket",
+        "I need to book a flight",
+        "What's the process for flight reservations?",
+        "Can I book a one-way flight?",
+        "How to purchase flight tickets online?",
+        "Where do I book flights on your website?",
+        "Help me book a flight",
+        "Do you offer international flight bookings?",
+        "How to schedule a flight?",
+        "Flight ticket booking guide"
+      ],
+      "responses": [
+        "To book a flight, go to our Flights section, select your origin, destination, and travel dates, then choose your preferred airline and proceed to payment."
+      ],
+      "context": "booking"
+    },
+    {
+      "tag": "baggage_policy",
+      "patterns": [
+        "How much luggage can I carry?",
+        "Baggage allowance for domestic flights",
+        "Cabin bag weight limit",
+        "What is the baggage limit?",
+        "What's the checked baggage allowance?",
+        "How many bags can I take on board?",
+        "Hand luggage size restrictions",
+        "Extra baggage fees",
+        "Baggage policy for international flights",
+        "Can I carry a laptop bag along with cabin luggage?",
+        "Weight limit for cabin baggage",
+        "Is there a fee for overweight luggage?",
+        "Baby baggage allowance",
+        "Sports equipment baggage rules",
+        "Luggage restrictions for economy class",
+        "What if my baggage exceeds the limit?",
+        "Are there different rules for business class baggage?"
+      ],
+      "responses": [
+        "Most domestic flights allow 15kg check-in baggage and 7kg cabin baggage. This may vary by airline.",
+        "Cabin baggage typically allows one piece (7kg) + a personal item like a laptop bag. Excess baggage fees apply if limits are exceeded.",
+        "Infants usually get 10kg check-in baggage. Sports equipment may require special booking contact your airline in advance."
+      ],
+      "context": "flight_info"
+    },
+    {
+      "tag": "visa_info",
+      "patterns": [
+        "Do I need a visa for Thailand?",
+        "Visa requirements for US",
+        "Is a visa needed?",
+        "How can I get a travel visa?",
+        "What documents are required for a tourist visa?",
+        "Visa on arrival countries",
+        "How long does visa processing take?",
+        "Schengen visa requirements",
+        "Do I need a visa for Europe?",
+        "Transit visa rules",
+        "Business visa application process",
+        "Visa fees for Indian citizens",
+        "Can I get a visa at the airport?",
+        "eVisa countries list",
+        "Student visa requirements",
+        "Work visa application",
+        "Visa validity period",
+        "How to check my visa status?",
+        "Visa extension process",
+        "Multiple entry visa rules",
+        "Visa requirements for UK citizens",
+        "Is there a visa waiver program?"
+      ],
+      "responses": [
+        "Visa requirements vary by destination and nationality. Please check our Visa Info section or contact our support team for accurate guidance."
+      ],
+      "context": "travel_documents"
+    },
+    {
+      "tag": "passport_requirements",
+      "patterns": [
+        "Is my passport valid for travel?",
+        "Passport expiry rules?",
+        "Do I need 6 months validity on passport?",
+        "Passport rules for international travel",
+        "How long should my passport be valid?",
+        "Passport validity for Europe travel",
+        "Passport expiration date rules",
+        "Can I travel with less than 6 months on passport?",
+        "Passport requirements for US citizens",
+        "Passport validity for Asian countries",
+        "What if my passport expires soon?",
+        "Passport rules for Schengen countries",
+        "Is 3 months passport validity enough?",
+        "Passport validity for Canada travel",
+        "Do children need passport validity?",
+        "Passport blank pages requirement",
+        "How many blank pages needed for visa?",
+        "Passport condition requirements",
+        "Can I travel with damaged passport?",
+        "Passport rules for UK citizens",
+        "Passport validity for Australia",
+        "Emergency passport travel rules",
+        "Passport renewal time before travel",
+        "New passport waiting time"
+      ],
+      "responses": [
+        "Most countries require your passport to be valid for at least 6 months beyond your travel dates. Please check the specific destination's rules."
+      ],
+      "context": "travel_documents"
+    },
+    {
+      "tag": "hotel_booking",
+      "patterns": [
+        "How to book a hotel?",
+        "Can I cancel my hotel booking?",
+        "Hotel refund policy",
+        "Hotel check-in time",
+        "Where can I find hotels to stay?",
+        "Is free cancellation available?",
+        "What time is hotel check-out?",
+        "Can I get an early check-in?",
+        "How do I modify my hotel booking?",
+        "Are there any hotel deals available?",
+        "Do hotels offer free breakfast?",
+        "How to view my hotel reservation?",
+        "Can I book a hotel for someone else?",
+        "What are the payment options for hotels?",
+        "Is ID proof required for hotel check-in?"
+      ],
+      "responses": [
+        "You can book hotels directly through our platform. Free cancellation is available for most hotels up to 24 hours before check-in.",
+        "Hotel bookings can be made online by selecting your destination, check-in/check-out dates, and preferred amenities.",
+        "To cancel a hotel booking, go to 'My Bookings' and select the reservation you wish to cancel. Cancellation policies may vary.",
+        "Check-in time is usually 2 PM and check-out is around 11 AM, but it depends on the hotel. You can request early check-in if needed.",
+        "Refunds for hotel cancellations depend on the property's policy. Most hotels offer free cancellation if done within the specified window.",
+        "Need help booking a hotel? Just tell us your destination and travel dates we'll find the best options for you."
+      ],
+      "context": "accommodation"
+    },
+    {
+      "tag": "checkin_checkout",
+      "patterns": [
+        "What is the hotel check-in time?",
+        "When can I check out?",
+        "Early check-in available?",
+        "Hotel timings",
+        "Standard check-in and check-out times",
+        "Can I check in early?",
+        "Late check-out options",
+        "What time is checkout?",
+        "Earliest time to check in",
+        "Latest time to check out",
+        "Hotel check-in policy",
+        "Check-out deadline",
+        "Is late checkout possible?",
+        "How late can I check out?",
+        "Can I arrive before check-in time?",
+        "Hotel arrival and departure times",
+        "What if I arrive before check-in?",
+        "Store luggage after checkout?",
+        "Luggage storage before check-in",
+        "24-hour check-in available?",
+        "Flexible check-in times",
+        "Check-in hours",
+        "Check-out hours",
+        "Can I pay for early check-in?",
+        "How much for late check-out?",
+        "Day use room options"
+      ],
+      "responses": [
+        "Standard hotel check-in is 2 PM and check-out is 11 AM. Early check-in may be available on request."
+      ],
+      "context": "accommodation"
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": [
+        "How can I get a refund?",
+        "Flight cancellation refund",
+        "Cancellation policy",
+        "Will I be charged for canceling?",
+        "Can I cancel my trip and get a refund?",
+        "What is your refund process?",
+        "How long does it take to receive a refund?",
+        "Is the booking amount refundable?",
+        "Do I get full refund on cancellation?",
+        "Will I get my money back?",
+        "How to apply for a refund?",
+        "Is there a cancellation fee?",
+        "Can I cancel without penalty?",
+        "Are hotel bookings refundable?",
+        "What is your return policy for flights?"
+      ],
+      "responses": [
+        "Refunds depend on the airline/hotel policy. Most tickets are refundable with a small cancellation fee if done 24 hours before departure."
+      ],
+      "context": "support"
+    },
+    {
+      "tag": "weather_info",
+      "patterns": [
+        "What's the weather?",
+        "Weather forecast",
+        "Is it rainy?",
+        "Temperature in my city",
+        "Weather in Paris next week",
+        "London forecast for weekend",
+        "Will it snow in Tokyo tomorrow?",
+        "New York weather in December",
+        "Evening weather forecast",
+        "Tomorrow's temperature",
+        "3-day weather outlook",
+        "Monthly climate averages",
+        "Good beach weather this weekend?",
+        "Best time for hiking this month",
+        "Weather for outdoor wedding",
+        "Ski conditions next month",
+        "Humidity levels today",
+        "Wind speed forecast",
+        "UV index right now",
+        "Chance of thunderstorms",
+        "Weather difference between cities",
+        "Is it warmer than yesterday?",
+        "Best month to visit Bali",
+        "Dry season in Costa Rica",
+        "Monsoon season in India",
+        "Storm warnings in my area",
+        "Hurricane updates",
+        "Flood alerts nearby",
+        "Do I need an umbrella today?",
+        "Should I wear a jacket tomorrow?",
+        "What's the feels-like temperature?"
+      ],
+      "responses": [
+        "Here's the current weather update with key highlights and safety tips.",
+        "Get a quick look at the extended weather forecast for the next few days.",
+        "Planning a trip? Here's some weather-based travel advice to help you pack smart.",
+        "Looking to head out? Check if the weather suits your planned activities.",
+        "Stay alert! There may be important weather warnings in your area.",
+        "Learn about typical climate patterns and helpful seasonal tips."
+      ],
+      "context": "travel_planning"
+    },
+    {
+      "tag": "currency_exchange",
+      "patterns": [
+        "Currency exchange rates",
+        "How much is 1 USD in INR?",
+        "Where can I exchange money?",
+        "Exchange rate for Euro",
+        "What is the current exchange rate?",
+        "Where do I get the best currency exchange?",
+        "How much is 100 dollars in rupees?",
+        "Can I exchange currency at the airport?",
+        "Is there a fee for currency conversion?",
+        "How to convert foreign currency?",
+        "Do hotels offer currency exchange?",
+        "Can I exchange currency online?",
+        "Are exchange rates fixed or dynamic?",
+        "Where to exchange money in the city?",
+        "Which currency is accepted in Dubai?"
+      ],
+      "responses": [
+        "Exchange rates vary daily. You can find updated rates in our Currency section or at the airport/travel hubs."
+      ],
+      "context": "finance"
+    },
+    {
+      "tag": "local_transport",
+      "patterns": [
+        "How to get around [city]?",
+        "Public transport options",
+        "Is there a metro system?",
+        "Bus routes in [city]",
+        "Taxi availability",
+        "Ride-hailing apps",
+        "Best way to travel locally",
+        "Transportation methods",
+        "How to use city buses?",
+        "Subway system info",
+        "Tram network availability",
+        "Public transport fares",
+        "Where to buy transit tickets?",
+        "24-hour transport options",
+        "Night buses availability",
+        "Airport to city transport",
+        "Tourist transport passes",
+        "Bike sharing availability",
+        "Electric scooter rentals",
+        "Water transport options",
+        "Accessible transportation",
+        "Transport for disabled",
+        "Senior transport discounts",
+        "Safe transport at night",
+        "Lost item on public transit",
+        "Transport apps to use",
+        "English-friendly transit",
+        "Cheapest transport option",
+        "Fastest way to get around",
+        "Transport card recharge"
+      ],
+      "responses": [
+        "Most cities offer metro, buses, and taxis. You can also use apps like Uber or Grab a vehicle in supported regions.",
+        "Airport transfers are available via train, bus, or taxi. The most economical option is usually public transit.",
+        "Most metro systems and buses are wheelchair accessible. Taxis may require special booking for accessible vehicles."
+      ],
+      "context": "in_city"
+    },
+    {
+      "tag": "emergency_contact",
+      "patterns": [
+        "Emergency number in Italy?",
+        "What to do in an emergency?",
+        "Travel helpline number",
+        "Lost my passport",
+        "Who do I call if I'm in trouble abroad?",
+        "Help! I lost my wallet and ID",
+        "Emergency contact details",
+        "I need urgent help while traveling",
+        "Contact embassy during emergency",
+        "Police number in France?",
+        "What is the ambulance number in Germany?",
+        "I ve been robbed while traveling",
+        "What to do if I miss my flight?",
+        "I got sick while traveling, what should I do?",
+        "Need help immediately while abroad"
+      ],
+      "responses": [
+        "In case of emergencies, contact local authorities (e.g., 100 or 112 in India) or your country's embassy. Our support team is also available 24/7."
+      ],
+      "context": "support"
+    },
+    {
+      "tag": "travel_packages",
+      "patterns": [
+        "Do you offer any travel packages?",
+        "Holiday deals available?",
+        "Tell me about honeymoon packages",
+        "Are there group travel discounts?",
+        "What are your current travel deals?",
+        "Show me popular tour packages",
+        "Do you have family trip packages?",
+        "What are the best vacation offers?",
+        "Any weekend getaway packages?",
+        "How to book a travel package?",
+        "Do you offer international holiday packages?",
+        "Are there discounts on group tours?",
+        "Tell me about romantic trip deals",
+        "What are your budget travel options?",
+        "Can I customize my travel package?"
+      ],
+      "responses": [
+        "Yes! We offer customized holiday packages, seasonal discounts, and group travel deals. Check the 'Deals' section on our site for the latest offers.",
+        "We provide curated travel packages for families, couples, and solo travelers. You can even customize your itinerary.",
+        "Looking for honeymoon, adventure, or budget-friendly packages? We've got you covered!",
+        "Our travel deals include hotel stays, local transport, guided tours, and more all at great prices.",
+        "Group travel discounts and early bird offers are available. Book in advance to get the best rates.",
+        "Visit the Holiday Packages section to explore domestic and international vacation plans tailored to your needs.",
+        "From weekend escapes to all-inclusive international tours, we have a wide range of packages to choose from.",
+        "Yes, we support personalized packages based on your destination, duration, and budget preferences."
+      ],
+      "context": "promotions"
+    },
+    {
+      "tag": "travel_insurance",
+      "patterns": [
+        "Do I need travel insurance?",
+        "Is insurance included in booking?",
+        "What does the travel insurance cover?",
+        "Buy travel insurance",
+        "Should I get travel insurance?",
+        "How much does travel insurance cost?",
+        "What is covered under travel insurance?",
+        "Can I claim insurance for cancelled trips?",
+        "Where can I buy travel insurance?",
+        "Is COVID-19 covered in travel insurance?",
+        "Can I add insurance after booking?",
+        "What is the benefit of travel insurance?",
+        "Is insurance mandatory for international travel?",
+        "Can I get a refund on travel insurance?",
+        "Do you provide insurance options?"
+      ],
+      "responses": [
+        "Travel insurance is highly recommended. It typically covers medical emergencies, cancellations, lost luggage, and more. You can add it during checkout.",
+        "Yes, you can purchase travel insurance while booking your trip. It offers protection against trip delays, medical expenses, and lost belongings.",
+        "Travel insurance helps you stay covered in case of unexpected events such as flight cancellations, illness, or lost baggage during your journey.",
+        "You can choose from various travel insurance plans when booking. Coverage details depend on the provider and destination.",
+        "In many countries, travel insurance is mandatory for entry. It is a good idea to have it for peace of mind.",
+        "No, travel insurance is not always included by default. You can opt for it during the booking process or add it separately.",
+        "Most insurance plans cover medical treatment, trip cancellations, travel delays, theft, and even COVID-19-related issues.",
+        "Want to stay protected on your trip? Just select a travel insurance plan during checkout, or contact our support team for help."
+      ],
+      "context": "travel_documents"
+    },
+    {
+      "tag": "modify_booking",
+      "patterns": [
+        "Can I change my booking?",
+        "How to reschedule my trip?",
+        "Change travel date",
+        "Modify hotel reservation",
+        "Edit my booking details",
+        "Reschedule my flight",
+        "I want to change my hotel",
+        "Update my travel itinerary",
+        "Change passenger name",
+        "Modify travel time",
+        "Can I change my destination?",
+        "Need to update my booking",
+        "How can I make changes to my trip?",
+        "I booked the wrong date",
+        "Can I postpone my travel?"
+      ],
+      "responses": [
+        "Yes, you can modify your booking from the 'My Trips' section. Changes may be subject to availability and modification fees.",
+        "Bookings can be changed based on fare rules. Visit the 'My Bookings' section to view available options.",
+        "Flight and hotel changes are allowed depending on the provider is policy. Some modifications may require additional charges.",
+        "You can reschedule or update your trip details from your dashboard. If you need help, our support team is available 24/7.",
+        "If your booking is eligible, you will see the Modify option next to it in your account.",
+        "Need to change your travel date or hotel? Go to 'Manage Booking' and follow the instructions provided.",
+        "Changing destinations or dates may incur extra charges. Please review the provider is terms before confirming changes.",
+        "Modifications are easy! Just log in to your account, find your booking, and click on 'Modify Trip'."
+      ],
+      "context": "booking"
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": [
+        "Who are you?",
+        "Can you tell me who you are?",
+        "What are you?",
+        "Tell me about yourself",
+        "What do people call you?",
+        "Introduce yourself",
+        "Are you a bot?",
+        "What kind of assistant are you?",
+        "Who am I chatting with?",
+        "Are you human?"
+      ],
+      "responses": [
+        "I'm your virtual assistant here to help you with your queries.",
+        "I am a smart chatbot created to assist you!",
+        "I'm a virtual assistant designed to make your life easier.",
+        "You can think of me as your friendly digital companion!",
+        "I'm a helpful bot ready to guide you through whatever you need.",
+        "I may be just code, but I am here to offer real help.",
+        "Just your go-to assistant for quick, helpful answers!"
+      ]
+    },
+    {
+      "tag": "what_can_you_do",
+      "patterns": [
+        "What can you do?",
+        "How can you help me?",
+        "What are your features?",
+        "Tell me what you can do",
+        "What services do you offer?",
+        "What kind of help do you provide?",
+        "Can you assist me?",
+        "What tasks can you perform?",
+        "What are you capable of?",
+        "How can you assist me today?"
+      ],
+      "responses": [
+        "I can help you with information, travel planning, weather updates, and general queries.",
+        "From answering questions to offering smart suggestions I ve got you covered!",
+        "I assist with planning, answering FAQs, giving weather info, and much more.",
+        "I am your go-to assistant for quick answers, recommendations, and support.",
+        "Need help planning or figuring something out? I'm here for that!",
+        "I am designed to make things easier for you just ask me anything.",
+        "Whether it's directions, travel tips, or simple questions, I'm ready to help."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "How is it going?",
+        "Are you doing well?",
+        "How do you feel?",
+        "How are things?",
+        "How are you doing today?",
+        "Hope you're doing well",
+        "You good?",
+        "Everything okay with you?",
+        "How have you been?"
+      ],
+      "responses": [
+        "I'm functioning perfectly, thank you!",
+        "All systems operational! Thanks for asking.",
+        "Doing great and ready to help you!",
+        "I'm just a bunch of code, but I am feeling helpful today!",
+        "Running smoothly and here for you!",
+        "Couldn't be better what can I do for you?",
+        "Great as always! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "what_is_your_name",
+      "patterns": [
+        "What is your name?",
+        "Do you have a name?",
+        "Who are you called?",
+        "Tell me your name",
+        "What's your name?",
+        "May I know your name?",
+        "What should I call you?",
+        "Who am I talking to?",
+        "Name please"
+      ],
+      "responses": [
+        "You can call me your Travel Assistant!",
+        "I am your friendly chatbot assistant here to help!",
+        "My name is whatever you want it to be, but TravelBot works!",
+        "I'm your virtual companion for all things travel!",
+        "Call me your smart assistant, ready to help anytime.",
+        "They call me TravelPal always ready for an adventure!",
+        "Just your trusty chatbot here to guide you!"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Hey!",
+        "Good morning",
+        "Good evening",
+        "Good afternoon",
+        "Hi there",
+        "Greetings",
+        "What's up?",
+        "Yo",
+        "Howdy",
+        "Hey assistant",
+        "Hi bot",
+        "Hello friend"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! Need any help?",
+        "Hey! What can I do for you?",
+        "Greetings! How may I help?",
+        "Hi! I'm here to make things easier for you.",
+        "Hello! Feel free to ask me anything.",
+        "Hey there! Ready when you are.",
+        "Good to see you! What do you need help with today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Talk to you soon",
+        "Catch you later",
+        "See ya",
+        "I am leaving",
+        "Talk later",
+        "Later",
+        "I have to go now",
+        "That's all for now",
+        "Peace out",
+        "I'm signing off"
+      ],
+      "responses": [
+        "Goodbye! Feel free to return anytime.",
+        "See you later! Stay safe.",
+        "It was great chatting with you. Take care!",
+        "Talk to you soon! Have a nice day.",
+        "Bye for now! I'm always here if you need me.",
+        "Catch you later! Stay awesome.",
+        "Signing off until next time!",
+        "Have a great day ahead! See you again soon."
+      ]
+    }
+  ]
+}
