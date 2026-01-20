@@ -1,8 +1,7 @@
 # FAQs Chatbot
 
 A smart chatbot that can understand travel-related questions and give quick and helpful answers. It uses machine learning and language processing to talk like a human and respond correctly.
-
---- 
+ 
 
 ## 🖥️ User Interface Overview
 
@@ -19,7 +18,6 @@ Key Elements:
 - **Bot Response Area:** Dynamically updates to show the chatbot's replies in a conversational format.
 - **Responsive Design:** Fully optimized for desktop, tablet, and mobile devices using HTML/CSS.
 
----
 
 ## 🎬 Project Demonstration
 
@@ -32,7 +30,6 @@ Key Elements:
 - The model predicts the intent using TensorFlow and NLP (SpaCy).
 - A relevant answer is selected and displayed in the chat window.
 
----
 
 ## 🧩 Architectural Design
 
@@ -40,7 +37,6 @@ Key Elements:
 
 The chatbot is built using **Flask** as the backend, **HTML/CSS/JS** for the user interface, and tools like **TensorFlow** and **SpaCy** for intent recognition and prediction. A custom intents.json file stores predefined categories and responses.
 
----
 
 ## 🧰 Tech Stack
 
@@ -53,7 +49,6 @@ The chatbot is built using **Flask** as the backend, **HTML/CSS/JS** for the use
 | **Data Handling**| Custom `intents.json` file (predefined Q&A dataset)        |
 | **Model Format** | `.keras` file (Keras-trained TensorFlow model)                |
 
----
 
 ## 🔄 How It Works
 
@@ -77,7 +72,6 @@ The chatbot is built using **Flask** as the backend, **HTML/CSS/JS** for the use
 
 > ⚙️ Behind the scenes, the system uses a simple **rule-based + ML hybrid architecture** to deliver fast and accurate answers to travel-related FAQs.
 
----
 
 ## ✨ Features
 
@@ -105,7 +99,6 @@ The chatbot is built using **Flask** as the backend, **HTML/CSS/JS** for the use
 - 🧩 **Modular Architecture**  
   Cleanly separated UI, backend, and model logic for easy customization and scaling.
 
----
 
 ## ⚙️ Setup Instructions
 
@@ -115,7 +108,6 @@ The chatbot is built using **Flask** as the backend, **HTML/CSS/JS** for the use
 - pip (Python package manager)
 - Git (to clone the repository)
 
----
 
 ### 📦 Installation Steps
 
@@ -146,7 +138,6 @@ The chatbot is built using **Flask** as the backend, **HTML/CSS/JS** for the use
 2. **Access the Chatbot**
    Open your browser and go to: [localhost:5000](http://127.0.0.1:5000)
 
----
 
 ## 🗂️ Project Structure
 
@@ -164,7 +155,6 @@ currency-converter-chatbot/
 └── README.md                    # Project documentation
 ```
 
----
 
 ## 🙏 Acknowledgements
 
@@ -178,5 +168,10 @@ I would like to thank the following tools, libraries, and communities for making
 
 > The open-source community – for continuous support, resources, and inspiration
 
----
+## 🙌 Thank You
+Thank you for taking the time to explore this project!
+I hope this spam detection system is helpful for learning, experimentation, and real-world understanding of text classification.
+
+If you have any feedback, suggestions, or improvements, feel free to reach out or raise an issue.
+Happy coding! 🚀
 
